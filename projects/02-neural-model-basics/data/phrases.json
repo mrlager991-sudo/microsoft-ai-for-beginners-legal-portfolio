@@ -1,0 +1,23 @@
+[
+{"id":"c1","text":"supplier agreement payment clause","label":"contract","split":"train"},
+{"id":"c2","text":"termination rights in the agreement","label":"contract","split":"train"},
+{"id":"c3","text":"vendor must deliver before payment","label":"contract","split":"train"},
+{"id":"c4","text":"interpret this indemnity clause","label":"contract","split":"train"},
+{"id":"c5","text":"review the commercial terms","label":"contract","split":"train"},
+{"id":"c6","text":"when may the supplier end the deal","label":"contract","split":"test"},
+{"id":"c7","text":"check indemnity and fees","label":"contract","split":"test"},
+{"id":"e1","text":"employee salary and annual leave","label":"employment","split":"train"},
+{"id":"e2","text":"dismissal from the workplace","label":"employment","split":"train"},
+{"id":"e3","text":"manager changed my work schedule","label":"employment","split":"train"},
+{"id":"e4","text":"staff grievance about overtime","label":"employment","split":"train"},
+{"id":"e5","text":"employment notice period question","label":"employment","split":"train"},
+{"id":"e6","text":"worker challenges unpaid overtime","label":"employment","split":"test"},
+{"id":"e7","text":"notice after role elimination","label":"employment","split":"test"},
+{"id":"p1","text":"personal data processing consent","label":"privacy","split":"train"},
+{"id":"p2","text":"controller reports a data breach","label":"privacy","split":"train"},
+{"id":"p3","text":"delete customer personal records","label":"privacy","split":"train"},
+{"id":"p4","text":"privacy request about tracking","label":"privacy","split":"train"},
+{"id":"p5","text":"lawful basis for data transfer","label":"privacy","split":"train"},
+{"id":"p6","text":"customer asks to erase tracking records","label":"privacy","split":"test"},
+{"id":"p7","text":"incident exposed account information","label":"privacy","split":"test"}
+]

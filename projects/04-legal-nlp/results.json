@@ -1,0 +1,1 @@
+{"clause_count":4,"classification_accuracy":1.0,"entity_field_accuracy":0.9166666666666666,"retrieval":{"query":"Which clause says when an invoice must be paid?","predicted_clause_id":"payment-1","expected_clause_id":"payment-1","cosine":0.063106,"correct":true},"errors":[{"id":"payment-2","field":"date","expected":"2026-11-01","predicted":null}]}

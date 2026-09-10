@@ -1,0 +1,15 @@
+@prefix legal: <https://example.invalid/legal-intake#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+legal:Ontology a owl:Ontology ;
+  rdfs:comment "A compact portfolio ontology for legal-intake routing." .
+legal:Request a owl:Class .
+legal:ContractRequest a owl:Class ; rdfs:subClassOf legal:Request .
+legal:EmploymentRequest a owl:Class ; rdfs:subClassOf legal:Request .
+legal:ReviewQueue a owl:Class .
+legal:hasTopic a owl:ObjectProperty ; rdfs:domain legal:Request .
+legal:routedTo a owl:ObjectProperty ; rdfs:domain legal:Request ; rdfs:range legal:ReviewQueue .
+legal:ContractReview a legal:ReviewQueue .
+legal:EmploymentReview a legal:ReviewQueue .
+legal:PrivacyReview a legal:ReviewQueue .

@@ -1,0 +1,1 @@
+{"image_format":"P2 PGM","image_size":[20,12],"expected_boxes":[[2,2,5,2],[12,7,6,2]],"predicted_boxes":[[2,2,5,2],[12,7,6,2]],"mean_best_iou":1.0,"redaction":{"width":20,"height":12,"redacted_pixels":22}}

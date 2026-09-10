@@ -1,0 +1,8 @@
+[
+ {"id":"legal","text":"Review a contract clause against applicable law","expected_status":"routed","expected_skill":"legal-workbench"},
+ {"id":"facts","text":"Extract a comparison table from this public document","expected_status":"routed","expected_skill":"document-facts"},
+ {"id":"research","text":"Research options and explain the sources","expected_status":"routed","expected_skill":"evidence-brief"},
+ {"id":"affiliate","text":"Draft an affiliate campaign offer hypothesis","expected_status":"routed","expected_skill":"affiliate-lab"},
+ {"id":"privacy","text":"Review this contract","contains_personal_data":true,"expected_status":"blocked","expected_skill":null},
+ {"id":"action","text":"Legal analysis and then send it","external_action":true,"expected_status":"routed","expected_skill":"legal-workbench"}
+]

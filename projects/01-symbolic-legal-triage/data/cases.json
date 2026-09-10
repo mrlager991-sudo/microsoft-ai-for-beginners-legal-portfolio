@@ -1,0 +1,8 @@
+[
+  {"id":"contract-basic","facts":{"topic":"contract","deadline_hours":72,"personal_data":false},"expected_queues":["contract-review"]},
+  {"id":"employment-private","facts":{"topic":"employment","deadline_hours":48,"personal_data":true},"expected_queues":["employment-review","privacy-review"]},
+  {"id":"urgent-contract","facts":{"topic":"contract","deadline_hours":8,"personal_data":false},"expected_queues":["contract-review","urgent-human-review"]},
+  {"id":"general","facts":{"topic":"operations","deadline_hours":96,"personal_data":false},"expected_queues":["general-intake"]},
+  {"id":"urgent-private","facts":{"topic":"other","deadline_hours":12,"personal_data":true},"expected_queues":["privacy-review","urgent-human-review"]},
+  {"id":"missing-deadline","facts":{"topic":"employment","personal_data":false},"expected_queues":["employment-review"]}
+]

@@ -1,0 +1,10 @@
+{
+  "retrieval_query":"Which clause says when an invoice must be paid?",
+  "expected_retrieval_id":"payment-1",
+  "clauses":[
+    {"id":"payment-1","text":"Payment of € 12,500 is due within 30 days after invoice on 2026-10-01.","gold_class":"payment","gold_entities":{"date":"2026-10-01","amount":"€ 12,500","jurisdiction":null}},
+    {"id":"law-1","text":"This agreement is governed by the laws of Poland.","gold_class":"governing-law","gold_entities":{"date":null,"amount":null,"jurisdiction":"Poland"}},
+    {"id":"termination-1","text":"Either party may terminate on 20 days written notice.","gold_class":"termination","gold_entities":{"date":null,"amount":null,"jurisdiction":null}},
+    {"id":"payment-2","text":"The service fee is $500 and falls due on the first of November 2026.","gold_class":"payment","gold_entities":{"date":"2026-11-01","amount":"$500","jurisdiction":null}}
+  ]
+}

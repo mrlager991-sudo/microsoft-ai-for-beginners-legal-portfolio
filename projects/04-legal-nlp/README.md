@@ -1,0 +1,5 @@
+# Legal NLP Evidence Pipeline
+
+This deterministic pipeline retrieves a similar clause with TF-IDF and cosine similarity, routes clauses by inspectable keywords, and extracts ISO dates, currency amounts, and governing-law jurisdictions with regular expressions. A four-clause synthetic gold set provides measured classification, field-level extraction, retrieval, and error output. It applies lessons 13–20 while making a useful distinction: classical representations and deterministic extraction can demonstrate the workflow, but they do not implement embeddings, transformers, or an LLM. Run `python pipeline.py`; inspect [results.json](results.json); run `python -m unittest test_pipeline.py`.
+
+The recorded failure is intentional evidence of a real limitation: the ISO-date rule cannot interpret a written date. TF-IDF measures lexical overlap rather than legal meaning; regex patterns omit linguistic and jurisdictional variation. Results on four authored clauses cannot establish production quality. Any extracted fact must retain its source text and be checked by a human before legal use. See [AUTHORSHIP.md](AUTHORSHIP.md).
